@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Growfy</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Educational project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="preloader__body">
+        <div class="preloader__ellipsis"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container">
+          <div class="header__logo">
+            <img src="img/logo.svg" alt="logo" />
+          </div>
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-burger" title="Menu button"><span></span></button>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a data-goto=".page__solutions" href="#" class="menu__link">About</a></li>
+                <li class="menu__item"><a data-goto=".page__services" href="#" class="menu__link">Services</a></li>
+                <li class="menu__item"><a data-goto=".page__textimonials" href="#" class="menu__link">Textimonials</a></li>
+                <li class="menu__item"><a data-goto=".page__news" href="#" class="menu__link">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__cart cart-header">
+            <a href="#" class="cart-header__link">
+              <span class="cart-header__text">Cart</span>
+              <span class="cart-header__quantity">0</span>
+            </a>
+            <div class="cart-header__body">
+              <div class="cart-header__message">Cart is empty</div>
+              <ul class="cart-header__list cart-list"></ul>
+            </div>
+          </div>
+          <a data-da=".menu__body,480,last" href="linksway.html" class="header__button btn"><span>A little about</span></a>
+        </div>
+      </header>
+      <main class="page">
+        <section class="page__solutions solutions" data-animate="0.7,true">
+          <div class="solutions__container container">
+            <div class="solutions__info">
+              <h1 class="solutions__title title">Marketing solutions that grow your business.</h1>
+              <div class="solutions__text text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                  viverra ornare, eros dolor.
+                </p>
+              </div>
+              <div class="solutions__buttons">
+                <a href="services.html" class="solutions__button btn"><span>Our services</span></a>
+                <a href="linksway.html" class="solutions__button btn_gray"><span>Contact us</span></a>
+              </div>
+            </div>
+            <div class="solutions__photos photos">
+              <div class="photos__column">
+                <div class="photos__photo bg-i">
+                  <img src="img/01_solutions/01.jpg" alt="image" loading="lazy" />
+                </div>
+                <div class="photos__photo_small bg-i">
+                  <img src="img/01_solutions/02.jpg" alt="image" loading="lazy" />
+                </div>
+              </div>
+              <div class="photos__column">
+                <div class="photos__photo_small bg-i">
+                  <img src="img/01_solutions/03.jpg" alt="image" loading="lazy" />
+                </div>
+                <div class="photos__photo bg-i">
+                  <img src="img/01_solutions/04.jpg" alt="image" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="page__trasted trasted">
+          <div class="trasted__container container">
+            <div class="trasted__text">TRUSTED BY startups and large enterprises</div>
+            <div class="trasted__logos">
+              <a href="#" class="trasted__logo">
+                <img src="img/02_trasted/01.svg" alt="" />
+              </a>
+              <a href="#" class="trasted__logo">
+                <img src="img/02_trasted/02.svg" alt="" />
+              </a>
+              <a href="#" class="trasted__logo">
+                <img src="img/02_trasted/03.svg" alt="" />
+              </a>
+              <a href="#" class="trasted__logo">
+                <img src="img/02_trasted/04.svg" alt="" />
+              </a>
+              <a href="#" class="trasted__logo">
+                <img src="img/02_trasted/05.svg" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <section class="page__services services">
+          <div class="services__container container">
+            <div class="services__info" data-animate="0.5">
+              <div class="services__lable lable">services</div>
+              <h2 class="services__title title">Services we offer</h2>
+              <div class="services__text text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                viverra ornare, eros dolor.
+              </div>
+              <a data-da=".services__container,479.98,last" href="services.html" class="services__button btn"><span>All services</span></a>
+            </div>
+            <div class="services__cards">
+              <div class="services__column">
+                <a href="linksway.html" class="services__item item-services">
+                  <img src="img/03_servises/01.svg" class="item-services__icon" alt="services" />
+                  <div class="item-services__title">Social Media Marketing</div>
+                  <div class="item-services__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                  </div>
+                </a>
+                <a href="linksway.html" class="services__item item-services">
+                  <img src="img/03_servises/02.svg" class="item-services__icon" alt="services" />
+                  <div class="item-services__title">Email Marketing</div>
+                  <div class="item-services__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="services__column">
+                <a href="linksway.html" class="services__item item-services">
+                  <img src="img/03_servises/03.svg" class="item-services__icon" alt="services" />
+                  <div class="item-services__title">Paid Advertising</div>
+                  <div class="item-services__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                  </div>
+                </a>
+                <a href="linksway.html" class="services__item item-services">
+                  <img src="img/03_servises/04.svg" class="item-services__icon" alt="services" />
+                  <div class="item-services__title">SEO Optimization</div>
+                  <div class="item-services__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__help help">
+          <div class="help__container container">
+            <div class="help__images">
+              <div class="help__images-column">
+                <div class="help__image bg-i">
+                  <img src="img/04_help/01.jpg" alt="image" loading="lazy" />
+                </div>
+              </div>
+              <div class="help__images-column">
+                <div class="help__image bg-i">
+                  <img src="img/04_help/02.jpg" alt="image" loading="lazy" />
+                </div>
+              </div>
+            </div>
+            <div class="help__info" data-animate="0.5">
+              <div class="help__lable lable">why choose us</div>
+              <h2 class="help__title title">We help great brands scale with content marketing.</h2>
+              <div class="help__text text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                  viverra ornare, eros dolor.
+                </p>
+              </div>
+              <ul class="help__list" data-animate="0.6">
+                <li class="help__list-item">
+                  <div class="help__list-image">
+                    <img src="img/04_help/icon.svg" alt="" />
+                  </div>
+                  <div class="help__list-text">This is some text inside of a div.</div>
+                </li>
+                <li class="help__list-item">
+                  <div class="help__list-image">
+                    <img src="img/04_help/icon.svg" alt="" />
+                  </div>
+                  <div class="help__list-text">This is some text inside of a div.</div>
+                </li>
+                <li class="help__list-item">
+                  <div class="help__list-image">
+                    <img src="img/04_help/icon.svg" alt="" />
+                  </div>
+                  <div class="help__list-text">This is some text inside of a div.</div>
+                </li>
+                <li class="help__list-item">
+                  <div class="help__list-image">
+                    <img src="img/04_help/icon.svg" alt="" />
+                  </div>
+                  <div class="help__list-text">This is some text inside of a div.</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="page__indexes indexes">
+          <div class="indexes__container container">
+            <div class="indexes__info">
+              <div class="indexes__info-item info-item">
+                <div class="info-item__lable title">1.2M+</div>
+                <div class="info-item__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</div>
+              </div>
+              <div class="indexes__info-item info-item">
+                <div class="info-item__lable title">3.4B</div>
+                <div class="info-item__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</div>
+              </div>
+              <div class="indexes__info-item info-item">
+                <div class="info-item__lable title">98%</div>
+                <div class="info-item__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</div>
+              </div>
+              <div class="indexes__info-item info-item">
+                <div class="info-item__lable title">10+</div>
+                <div class="info-item__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</div>
+              </div>
+            </div>
+            <div class="indexes__images">
+              <div class="indexes__image bg-i">
+                <img src="img/05_indexes/01.jpg" alt="image" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="page__textimonials textimonials">
+          <div class="textimonials__container container">
+            <div class="textimonials__info" data-animate="0.7">
+              <div class="textimonials__info-txt">
+                <div class="textimonials__lable lable">textimonials</div>
+                <h3 class="textimonials__title title" data-typewriter="0.1">See what our clients say</h3>
+                <div class="textimonials__text text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                  viverra ornare, eros dolor interdum nulla, ut commodo diam libero.
+                </div>
+              </div>
+              <div class="textimonials__info-buttons">
+                <a href="linksway.html" class="textimonials__button btn"><span>Get in touch</span></a>
+              </div>
+            </div>
+            <div data-mouseslide="+2" class="textimonials__cards" data-animate="0.2">
+              <div class="textimonials__cards-raw">
+                <a href="linksway.html" class="textimonials__card card-textimonials">
+                  <div class="card-textimonials__person">
+                    <div class="card-textimonials__photo">
+                      <div class="card-textimonials__photo-box bg-i">
+                        <img src="img/06_textimonials/01.jpg" alt="avatar" loading="lazy" />
+                      </div>
+                    </div>
+                    <div class="card-textimonials__personal-data">
+                      <div class="card-textimonials__name">John Doe</div>
+                      <div class="card-textimonials__company">Company Name</div>
+                    </div>
+                  </div>
+                  <div class="card-textimonials__lable">I recommend this agency</div>
+                  <div class="card-textimonials__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut commodo diam libero.
+                  </div>
+                  <div class="card-textimonials__rating rating">
+                    <div class="rating__body"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                    <div class="rating__grade"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                  </div>
+                </a>
+                <a href="linksway.html" class="textimonials__card card-textimonials">
+                  <div class="card-textimonials__person">
+                    <div class="card-textimonials__photo">
+                      <div class="card-textimonials__photo-box bg-i">
+                        <img src="img/06_textimonials/02.jpg" alt="avatar" loading="lazy" />
+                      </div>
+                    </div>
+                    <div class="card-textimonials__personal-data">
+                      <div class="card-textimonials__name">Alice Smith</div>
+                      <div class="card-textimonials__company">Company Name</div>
+                    </div>
+                  </div>
+                  <div class="card-textimonials__lable">The support is awesome</div>
+                  <div class="card-textimonials__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut commodo diam libero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit fuga rerum reprehenderit natus incidunt exercitationem nostrum, porro enim aliquam dolor optio possimus sequi ad
+                    doloremque veritatis provident aut accusantium. Magni?
+                  </div>
+                  <div class="card-textimonials__rating rating">
+                    <div class="rating__body"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                    <div class="rating__grade"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                  </div>
+                </a>
+                <a href="linksway.html" class="textimonials__card card-textimonials">
+                  <div class="card-textimonials__person">
+                    <div class="card-textimonials__photo">
+                      <div class="card-textimonials__photo-box bg-i">
+                        <img src="img/06_textimonials/03.jpg" alt="avatar" loading="lazy" />
+                      </div>
+                    </div>
+                    <div class="card-textimonials__personal-data">
+                      <div class="card-textimonials__name">Sonic Miller</div>
+                      <div class="card-textimonials__company">Company Name</div>
+                    </div>
+                  </div>
+                  <div class="card-textimonials__lable">A game changer for us</div>
+                  <div class="card-textimonials__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut commodo diam libero.
+                  </div>
+                  <div class="card-textimonials__rating rating">
+                    <div class="rating__body"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                    <div class="rating__grade"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                  </div>
+                </a>
+                <a href="linksway.html" class="textimonials__card card-textimonials">
+                  <div class="card-textimonials__person">
+                    <div class="card-textimonials__photo">
+                      <div class="card-textimonials__photo-box bg-i">
+                        <img src="img/06_textimonials/04.jpg" alt="avatar" loading="lazy" />
+                      </div>
+                    </div>
+                    <div class="card-textimonials__personal-data">
+                      <div class="card-textimonials__name">Joan Melon</div>
+                      <div class="card-textimonials__company">Company Name</div>
+                    </div>
+                  </div>
+                  <div class="card-textimonials__lable">I recommend this agency</div>
+                  <div class="card-textimonials__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut commodo diam libero.
+                  </div>
+                  <div class="card-textimonials__rating rating">
+                    <div class="rating__body"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                    <div class="rating__grade"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                  </div>
+                </a>
+                <a href="linksway.html" class="textimonials__card card-textimonials">
+                  <div class="card-textimonials__person">
+                    <div class="card-textimonials__photo">
+                      <div class="card-textimonials__photo-box bg-i">
+                        <img src="img/06_textimonials/05.jpg" alt="avatar" loading="lazy" />
+                      </div>
+                    </div>
+                    <div class="card-textimonials__personal-data">
+                      <div class="card-textimonials__name">Alik Someman</div>
+                      <div class="card-textimonials__company">Company Name</div>
+                    </div>
+                  </div>
+                  <div class="card-textimonials__lable">The support is awesome</div>
+                  <div class="card-textimonials__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut commodo diam libero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Impedit fuga rerum reprehenderit natus incidunt exercitationem nostrum, porro enim aliquam dolor optio possimus sequi ad
+                    doloremque veritatis provident aut accusantium. Magni?
+                  </div>
+                  <div class="card-textimonials__rating rating">
+                    <div class="rating__body"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                    <div class="rating__grade"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                  </div>
+                </a>
+                <a href="linksway.html" class="textimonials__card card-textimonials">
+                  <div class="card-textimonials__person">
+                    <div class="card-textimonials__photo">
+                      <div class="card-textimonials__photo-box bg-i">
+                        <img src="img/06_textimonials/06.jpg" alt="avatar" loading="lazy" />
+                      </div>
+                    </div>
+                    <div class="card-textimonials__personal-data">
+                      <div class="card-textimonials__name">Anna Clause</div>
+                      <div class="card-textimonials__company">Company Name</div>
+                    </div>
+                  </div>
+                  <div class="card-textimonials__lable">A game changer for us</div>
+                  <div class="card-textimonials__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                    viverra ornare, eros dolor interdum nulla, ut commodo diam libero.
+                  </div>
+                  <div class="card-textimonials__rating rating">
+                    <div class="rating__body"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                    <div class="rating__grade"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__news news">
+          <div class="news__container container">
+            <div class="news__info" data-animate="0.7">
+              <div class="news__info-txt">
+                <div class="news__lable lable">Blog</div>
+                <h3 class="news__title title">Read our articles & news</h3>
+                <div class="news__text text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis
+                  viverra ornare, eros dolor interdum nulla, ut commodo diam libero.
+                </div>
+              </div>
+              <div class="news__info-buttons">
+                <a href="linksway.html" class="news__button btn"><span>All Posts</span></a>
+              </div>
+            </div>
+            <div class="news__cards">
+              <div class="news__cards-raw">
+                <a href="linksway.html" class="news__card card-news">
+                  <div class="card-news__image-box">
+                    <div class="card-news__image bg-i">
+                      <img src="img/07_news/01.jpg" alt="news" loading="lazy" />
+                    </div>
+                    <div class="card-news__image-lable">Social Media</div>
+                  </div>
+                  <div class="card-news__info">
+                    <div class="card-news__date">August 28, 2022</div>
+                    <div class="card-news__lable">How to Use Social Proof in Marketing</div>
+                    <div class="card-news__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper
+                      lorem.
+                    </div>
+                    <div class="card-news__link">Read now</div>
+                  </div>
+                </a>
+                <a href="linksway.html" class="news__card card-news">
+                  <div class="card-news__image-box">
+                    <div class="card-news__image bg-i">
+                      <img src="img/07_news/02.jpg" alt="news" loading="lazy" />
+                    </div>
+                    <div class="card-news__image-lable">SEO</div>
+                  </div>
+                  <div class="card-news__info">
+                    <div class="card-news__date">August 28, 2022</div>
+                    <div class="card-news__lable">Make a great first impression with these titles</div>
+                    <div class="card-news__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper
+                      lorem.
+                    </div>
+                    <div class="card-news__link">Read now</div>
+                  </div>
+                </a>
+                <a href="linksway.html" class="news__card card-news">
+                  <div class="card-news__image-box">
+                    <div class="card-news__image bg-i">
+                      <img src="img/07_news/03.jpg" alt="news" loading="lazy" />
+                    </div>
+                    <div class="card-news__image-lable">Strategy</div>
+                  </div>
+                  <div class="card-news__info">
+                    <div class="card-news__date">August 28, 2022</div>
+                    <div class="card-news__lable">How to Grab Your Reader’s Attention</div>
+                    <div class="card-news__text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna adipiscing praesent velit viverra sit semper
+                      lorem.
+                    </div>
+                    <div class="card-news__link">Read now</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="page__start start">
+          <div class="start__container container">
+            <div class="start__info">
+              <div class="start__lable">Ready to start scaling your business now?</div>
+              <div class="start__text">Lorem ipsum dolor sit am consectetur adipiscing varius enim in eros.</div>
+            </div>
+            <div class="start__buttons">
+              <a href="services.html" class="start__button btn"><span>Our services</span></a>
+              <a href="linksway.html" class="start__button btn_gray"><span>Contact us</span></a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__growfy">
+            <div class="footer__logo">
+              <img src="img/logo.svg" alt="logo" />
+            </div>
+            <div class="footer__discription">
+              Growfy is a template highly suitable for modern marketing agencies, digital studios, startups and businesses. The design is made in the
+              dark style, which makes the site memorable and you can easily adapt it to your brand.
+            </div>
+            <div class="footer__socials">
+              <a href="https://ua.linkedin.com/" target="_blank" class="footer__soc-link">
+                <img src="img/08_footer/01.svg" alt="" />
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="footer__soc-link">
+                <img src="img/08_footer/02.svg" alt="" />
+              </a>
+              <a href="https://uk-ua.facebook.com/" target="_blank" class="footer__soc-link">
+                <img src="img/08_footer/03.svg" alt="" />
+              </a>
+              <a href="https://www.youtube.com/" target="_blank" class="footer__soc-link">
+                <img src="img/08_footer/04.svg" alt="" />
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="footer__soc-link">
+                <img src="img/08_footer/05.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div data-spoilers="991.98,max" class="footer__pages">
+            <div data-spoiler class="footer__lable">Pages</div>
+            <nav class="footer__nav-body">
+              <ul class="footer__list">
+                <li class="footer__item"><a href="index.html" class="footer__link _active">Main</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link">Explanation</a></li>
+                <li class="footer__item"><a href="services.html" class="footer__link">Annotation</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Packages</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Blog</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div data-spoilers="991.98,max" class="footer__utility">
+            <div data-spoiler class="footer__lable">Utility pages</div>
+            <div class="footer__nav-body">
+              <ul class="footer__list">
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Instructions</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Style guide</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Licenses</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Changelog</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">404 Not found</a></li>
+                <li class="footer__item"><a href="linksway.html" class="footer__link _silence">Password protected</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__subscribe">
+            <div class="footer__info">
+              <div class="footer__lable">Subscribe to our newsletter</div>
+              <div class="footer__discription">Lorem ipsum dolor sit am consectetur adipiscing</div>
+            </div>
+            <div class="footer__form form">
+              <form method="POST" action="#" id="form" class="form__body">
+                <div class="form__item">
+                  <input id="formEmail" type="text" name="email" class="form__input _email _req" placeholder="Enter your email" autocomplete="on" />
+                </div>
+                <button type="submit" class="form__button btn"><span>Subscribe</span></button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">© 2023</div>
+      </footer>
+    </div>
+    <script src="js/functions.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
